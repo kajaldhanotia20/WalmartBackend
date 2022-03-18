@@ -12,7 +12,7 @@
 #### Assumptions made:
 1. It is considered safe to seat people from one group together. If there is a different group/different customer, we ensure the distance rule is followed.
 2. We assume that the input file has all reservation IDs in order eg- R001, R002, R003 and so on.
-3. We cannot make a reservation f the number of seats demanded is greater than the number of seats available. In that case, we will print a message informing the same.
+3. We cannot make a reservation if the number of seats demanded is greater than the number of seats available, or if the input number is negative, or zero.
 
 
 #### How do we ensure customer satisfaction?
